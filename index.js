@@ -33,9 +33,9 @@ app.get("/api/v1/bookings", getBooking)
 
 //delete api
 
-app.delete("/api/v1/bookings", getBooking);
+app.delete("/api/v1/bookings", deleteBooking);
 
-/// creating requiest posst for bus
+
 
 ////post buses
 app.post("/api/v1/buses", postBus );
